@@ -48,4 +48,4 @@ If this policy changes, the updated version will be published at the same addres
 
 ## Contact
 
-Questions: [your support email]
+Questions: info@apeex.io
