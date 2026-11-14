@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+dist/
+.claude/
+icons/source/old/
+*.log
+# icon explorations that were not chosen stay local
+icons/source/c?-*.svg
+icons/source/stol-*.svg
+icons/source/tabularium-*.svg
+icons/source/tiles-*.svg
+icons/source/concepts.png
+icons/source/legacy/
