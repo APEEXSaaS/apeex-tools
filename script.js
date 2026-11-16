@@ -1876,7 +1876,8 @@ function setupEventListeners() {
         document.getElementById('link-name').dataset.auto = '1';
         updateCategorySelect();
         linkModal.style.display = 'block';
-        document.getElementById('link-name').focus();
+        // The URL comes first: paste it, the name fills in by itself, Tab moves on to the name
+        document.getElementById('link-url').focus();
     });
 
     // Modal close handlers

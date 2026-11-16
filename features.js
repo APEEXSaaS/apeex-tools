@@ -914,6 +914,11 @@ function setupLinkNameAutofill() {
     nameInput.addEventListener('input', () => {
         nameInput.dataset.auto = nameInput.value.trim() ? '' : '1';
     });
+
+    // Tabbing into an autofilled name selects it, so typing replaces it at once
+    nameInput.addEventListener('focus', () => {
+        if (nameInput.dataset.auto === '1' && nameInput.value) nameInput.select();
+    });
 }
 
 /* ---------- Wiring ---------- */
